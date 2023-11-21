@@ -7,7 +7,7 @@ from langchain.chains import SimpleSequentialChain
 from langchain.callbacks import StdOutCallbackHandler
 
 
-llm = OpenAI(temperature=0.2, openai_api_key=apikey)
+llm = OpenAI(temperature=0, openai_api_key=apikey)
 
 handler = StdOutCallbackHandler()
 
