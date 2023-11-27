@@ -19,7 +19,6 @@ while(i < 10):
 
 chain_list = []
 questionnaire_chain = LLMChain(llm=llm, prompt=questionnaire_prompt_template, verbose=True)
-chain_list.append(questionnaire_chain)
 persona = questionnaire_chain.run(
     input_1=values[0], 
     input_2=values[1], 
@@ -32,16 +31,5 @@ persona = questionnaire_chain.run(
     input_9=values[8],
     input_10=values[9],
 )
-persona_chain = LLMChain(llm=llm, prompt=persona_prompt_template, verbose=True)
-chain_list.append(persona_chain)
-output = persona_chain.run(persona)
 
-# overall_chain = SimpleSequentialChain(
-#     chains=chain_list, 
-#     input_variables=["input_1", "input_2","input_3","input_4","input_5","input_6","input_7","input_8","input_9","input_10",],
-#     verbose=True
-# )
-
-# question_out = overall_chain.run(
-# )
-print(output)
+print(persona)

@@ -18,8 +18,15 @@ When choosing a book, on a scale from 1-10 the persona is a {input_7} on thinkin
 On a scale from 1-10 the persona is a {input_8} about liking to explore all options before making a choice
 On a scale from 1-10 the persona is a {input_9} about preferring creating a plan before deciding what to do	
 On a scale from 1-10 the persona is a {input_10} about thinking it's important to consider others' opinions before making a choice
-Given the responses to the 10 questions about a users preferences and decision-making styles, analyze their personality and provide a template for a persona of this personality that can be used to generate a realistic conversation based on aspects determined for the persona like values, traits, emotional connection, social compatibility, and long-term goals.
+Develop a persona based on their responses to 10 specific decision-making and preference questions, each rated on a scale from 1-10. This analysis should focus on identifying key personality traits, values, emotional tendencies, social compatibility, and long-term goals. Based on these insights, the program will create a detailed, conversation-capable persona.
+
+For instance, a high score in seeking help from friends (input_1) may indicate a persona that is collaborative and sociable, whereas a low score could suggest a more independent and self-reliant character. Similarly, a high score in considering how choices impact others (input_4) suggests a persona that is empathetic and considerate in conversations.
+
+The generated persona should realistically reflect the user's personality profile, enabling it to engage in dynamic, contextually relevant conversations. This includes inferring additional traits that logically align with the given responses, thereby enhancing the persona's depth and realism. Additionally, the persona should demonstrate adaptability, altering its conversational style and responses based on the context of the interaction, mirroring real-world human behavior and thought processes.
+
+The ultimate goal is to create a persona that not only accurately represents the user's personality but also can interact effectively in various conversational scenarios, showcasing its unique characteristics and decision-making styles
 """
+
 
 # questionnaire_template = """\
 # What persona best fits the results of this questionnaire QUESTIONNAIRE:
