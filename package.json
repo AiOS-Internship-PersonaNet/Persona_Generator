@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "dependencies": {
+    "langchain": "^0.0.198",
+    "openai": "^4.20.1"
+  },
+  "name": "aios",
+  "description": "",
+  "version": "1.0.0",
+  "main": "apikey.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiOS-Internship-PersonaNet/Persona_Generator.git"
+  },
+  "author": "Robert Sato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AiOS-Internship-PersonaNet/Persona_Generator/issues"
+  },
+  "homepage": "https://github.com/AiOS-Internship-PersonaNet/Persona_Generator#readme"
+}

@@ -3,7 +3,6 @@ from prompts import *
 
 from langchain.llms import OpenAI
 from langchain.chains import LLMChain
-from langchain.chains import SimpleSequentialChain
 from langchain.callbacks import StdOutCallbackHandler
 
 

@@ -27,41 +27,6 @@ The generated persona should realistically reflect the user's personality profil
 The ultimate goal is to create a persona that not only accurately represents the user's personality but also can interact effectively in various conversational scenarios, showcasing its unique characteristics and decision-making styles
 """
 
-
-# questionnaire_template = """\
-# What persona best fits the results of this questionnaire QUESTIONNAIRE:
-# Question:
-# On a scale from 1 to 10 how much does your Persona enjoy seeking help from friends when making decisions?	
-# RESPONSE: {input_1}
-# Question:
-# On a scale from 1 to 10 how long does your Persona to choose their favorite snack?	
-# RESPONSE: {input_2}
-# Question:
-# On a scale from 1 to 10 how much does your Persona like following rules while playing games?	
-# RESPONSE: {input_3}	
-# Question:
-# On a scale from 1 to 10 how much does your Persona care about affecting others? 		
-# RESPONSE: {input_4}
-# Question:
-# On a scale from 1 to 10 how much does your Persona think about potential outcomes of a certain choice?	
-# RESPONSE: {input_5}
-# Question:
-# On a scale from 1 to 10 how fast does your Persona prefer making decisions with 10 being the fastest?	
-# RESPONSE: {input_6}
-# Question:
-# On a scale from 1 to 10 how much does your Persona like to read?	
-# RESPONSE: {input_7}
-# Question:
-# On a scale from 1 to 10 how much does your Persona like to explore all options before making a choice?	
-# RESPONSE: {input_8}
-# Question:
-# On a scale from 1 to 10 how much does your Persona like creating a plan before deciding what to do?	
-# RESPONSE: {input_9}
-# Question:
-# On a scale from 1 to 10 how important does your Persona think it is to consider others opinions before making a choice?
-# RESPONSE: {input_10}
-# """
-
 persona_template = """\
 What job title best fits this persona PERSONA: {persona}?
 """
