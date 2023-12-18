@@ -3,11 +3,10 @@ import { LLMChain } from "langchain/chains";
 
 import { apikey } from "./apikey.js"
 import { questionnaire_template} from "./prompt.js"
-// const { apikey } = require('./utility.js')
-// const { questionnaire_template}  = require('./prompt.js');
 
 const llm = new OpenAI({
     openAIApiKey: apikey,
+    verbose: true,
 });
 
 const num_questions = 10;
@@ -16,7 +15,6 @@ for(let i = 0; i < num_questions; i++){
     values.push(Math.floor(Math.random() * 10) + 1); 
 }
 
-// let chain_list = []
 const chainA = new LLMChain({ llm: llm, prompt: questionnaire_template,});
 
 const persona = await chainA.call({ 
